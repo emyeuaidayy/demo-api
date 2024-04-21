@@ -1,0 +1,19 @@
+mongodb+srv://emyeuaidayy:1234@home-service.fj8db1c.mongodb.net/?retryWrites=true&w=majority&appName=home-service/home-service
+
+mutation {
+  createWork(input: {
+    name: "New Work",
+    icon: {
+      name: "New Icon",
+      data: "icon-data"
+    }
+  }) {
+    id
+    name
+    icon {
+      id
+      name
+      data
+    }
+  }
+}
