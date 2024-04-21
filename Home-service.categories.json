@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "6620fb4a7d1497b87179b5f8"
+  },
+  "name": "Job 1",
+  "status": "available",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620fb6f2859d97a4fc1e0d7"
+  },
+  "name": "Job 1",
+  "status": "available",
+  "__v": 0
+}]
